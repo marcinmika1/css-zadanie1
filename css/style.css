@@ -99,3 +99,7 @@ input[title~="jeszcze"]{
 input[title*="tyt"]{
     background-color:azure;
 }
+
+input[value$="3"]{
+    font-size: 2em;
+}

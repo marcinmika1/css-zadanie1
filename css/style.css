@@ -1,6 +1,4 @@
-*{
-    background-color: beige;
-}
+
 
 p{
     background-color: aqua;
@@ -64,4 +62,18 @@ div:empty{
     width: 600px;
     height: 200px;
     background-color: blue;
+
+}
+
+/*co któreś dziecko*/
+li:nth-child(odd){
+    background-color: dodgerblue;
+}
+
+li:nth-child(4){
+   background-color: orange;
+}
+
+li:nth-child(3n){
+    background-color: black
 }

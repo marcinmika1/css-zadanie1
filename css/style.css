@@ -5,3 +5,9 @@
 p{
     background-color: aqua;
 }
+
+p#par1::before {
+    content: '*';
+    color: #fff;
+    font-size: 3em;
+}

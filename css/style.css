@@ -59,3 +59,9 @@ p span:only-child{
     
     color: fuchsia;
 }
+
+div:empty{
+    width: 600px;
+    height: 200px;
+    background-color: blue;
+}

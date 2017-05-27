@@ -6,6 +6,8 @@ p{
     background-color: aqua;
 }
 
+
+/*pseudo-selektory*/
 p#par1::before {
     content: '*';
     color: #fff;
@@ -21,3 +23,8 @@ p#par2::first-letter{
     font-size: 3em;
 }
 
+/*pseudo-klasy*/
+
+a:visited {
+    color: chartreuse;
+}

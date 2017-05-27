@@ -33,3 +33,12 @@ a:hover{
     color: fuchsia;
     font-size: 2em;
 }
+
+input:focus{
+    background-color: bisque;
+}
+
+p:target{
+    
+    background-color: dimgray;
+}

@@ -77,3 +77,17 @@ li:nth-child(4){
 li:nth-child(3n):hover{
     background-color: black
 }
+
+/*selektory atrybutów*/
+/*wszystkie atrybuty co maja title*/
+input[title]{
+    background-color: aqua;
+}
+
+input[type="text"]{
+    background-color: bisque;
+}
+
+input[title="Tytuł"]{
+    background-color: dimgrey;
+}

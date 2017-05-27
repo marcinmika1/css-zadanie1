@@ -11,3 +11,12 @@ p#par1::before {
     color: #fff;
     font-size: 3em;
 }
+
+p#par2::first-line{
+    color: forestgreen;
+    
+}
+
+p#par2::first-letter{
+    font-size: 3em;
+}

@@ -91,3 +91,11 @@ input[type="text"]{
 input[title="Tytuł"]{
     background-color: dimgrey;
 }
+
+input[title~="jeszcze"]{
+    background-color:firebrick;
+}
+
+input[title*="tyt"]{
+    background-color:azure;
+}

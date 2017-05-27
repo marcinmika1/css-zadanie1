@@ -28,3 +28,8 @@ p#par2::first-letter{
 a:visited {
     color: chartreuse;
 }
+
+a:hover{
+    color: fuchsia;
+    font-size: 2em;
+}
